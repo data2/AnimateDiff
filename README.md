@@ -1,3 +1,12 @@
+# 运行应用
+
+after pip , if you execute "python -u app.py" , show error msg like this:
+
+cannot import name 'cached_download' from 'huggingface_hub'
+
+you can solve this problem by execute 'pip install --upgrade huggingface_hub==0.25.2'
+
+
 # AnimateDiff
 
 This repository is the official implementation of [AnimateDiff](https://arxiv.org/abs/2307.04725) [ICLR2024 Spotlight].
